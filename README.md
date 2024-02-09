@@ -1,4 +1,22 @@
-# Getting Started with Create React App
+# Getting Started with Create React App  for the Resume Portfolio
+
+## Screenshots
+
+### Home menu/banner section 
+![Screenshot from 2024-02-09 16-53-53](https://github.com/DEVESH-2030/portfolio-resume/assets/73014162/300c4267-b9cd-4b32-9977-641717d9bf65)
+
+###  Skills and Work Experience section
+![image](https://github.com/DEVESH-2030/portfolio-resume/assets/73014162/e4bfe991-b1e1-4ce0-b28a-e84d17fca7cf)
+
+### Education section
+![image](https://github.com/DEVESH-2030/portfolio-resume/assets/73014162/2e15d6bd-c67c-4afb-96ab-06250260e003)
+
+### Portfolio section But not more detailed contents (only static available) 
+![image](https://github.com/DEVESH-2030/portfolio-resume/assets/73014162/23006306-f78d-4c32-9f5a-f5963cf1f98b)
+
+### Contact Section
+![image](https://github.com/DEVESH-2030/portfolio-resume/assets/73014162/7378b360-ea67-484b-b851-36810c6e21ed)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
