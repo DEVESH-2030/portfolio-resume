@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created for portfolio resume and others"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/r eleases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+    <title>Resume | Portfolio</title>
+  </head>
+  <body>
+    <header id="body-header">
+        <!-- <nav>
+            <ul class="horizontal-list text-center white-color">
+            <li><a href="#"> Home </a></li>
+            <li><a href="about"> About </a></li>
+                <li><a href="skills"> Skills </a></li>
+                <li><a href="skills"> Experience </a></li>
+                <li><a href="education"> Education </a></li>
+                <li><a href="portfolio"> Portfolio </a></li>
+                <li><a href="contact"> Contact </a></li>
+            </ul>
+        </nav> -->
+
+        <nav class="navbar navbar-expand-lg navbar-light text-center">
+            <div class="container-fluid text-center">
+                <i class="fas fa-bars navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onclick="toggleMenu()"></i>
+
+                <div class="collapse navbar-collapse text-center" id="navbarNav">
+                    <ul class="navbar-nav horizontal-list text-center white-color" id="navList">
+                        <li class="nav-item"> <a class="nav-link" href="#">Home</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="about">About</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="skills">Skills</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="experience">Experience</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="education">Education</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="portfolio">Portfolio</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="contact">Contact</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+      <div id="name-social-container" class="white-color name-social">
+        <div class="name-heading">
+          <h1>Devesh Kumar</h1>
+        </div>
+
+        <div class="social-link">
+          <ul class="text-center social-icons">
+            <li>
+              <a href="https://www.linkedin.com/mynetwork" target="_blank">
+                <img src="images/social/linkedin.png" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.stackoverflow.com" target="_blank">
+                <img src="../images/social/stackoverflow.png" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.googleplus.com" target="_blank">
+                <img src="../images/social/google-plus.png" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com" target="_blank">
+                <img src="../images/social/facebook.png" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.quora.com" target="_blank">
+                <img src="../images/social/quora.png" alt="" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- about section -->
+      <section id="about">
+        <div id="my-image">
+          <img src="../images/73014162.jpeg" alt="my-image" />
+        </div>
+        <div id="about-content">
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and
+            <span class="text-highlight">typesetting industry</span>. Lorem
+            Ipsum has been the industry's standard
+            <span class="text-highlight">dummy text ever</span> since the 1500s,
+            when an unknown printer took a galley of type and scrambled it to
+            make a type specimen book. It has survived not only five centuries,
+            but also the leap into electronic typesetting, remaining essentially
+            unchanged. It was popularised in the 1960s
+            <span class="text-highlight">with the release of Letraset</span>
+            sheets containing Lorem Ipsum.
+          </p>
+        </div>
+      </section>
+
+      <!-- skill section  -->
+      <section id="skills">
+        <h1 class="section-heading mb75px">
+          <span>
+            <i class="fas fa-chalkboard-teacher"></i>
+          </span>
+          <span> SKILLS </span>
+        </h1>
+
+        <div class="skills-display">
+          <div class="skill-progress">
+            <div class="c-plus-plus-percent mb-blue">
+              <div class="skill-name">
+                <span> C++ </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-progress">
+            <div class="html-percent html-mb-orange">
+              <div class="skill-name">
+                <span> HTML </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-progress">
+            <div class="css-percent mb-purple">
+              <div class="skill-name">
+                <span> CSS </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-progress">
+            <div class="javascript-percent javascript-mb-green">
+              <div class="skill-name">
+                <span> Javascript </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-display-two">
+          <div class="skill-progress">
+            <div class="nodejs-percent mb-blue">
+              <div class="skill-name">
+                <span> NodeJs </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-progress" style="margin-left: 200px">
+            <div class="percent-mongo mb-purple">
+              <div class="skill-name">
+                <span> MongoDB </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- work experience section -->
+      <section id="experience">
+        <h1 class="section-heading mb75px">
+          <span>
+            <i class="fas fa-briefcase"></i>
+          </span>
+          <span> Work Experience </span>
+        </h1>
+
+        <div class="timeline">
+          <div class="timeline-box">
+            <div class="col-12">
+              <div class="mt-3 left d-flex flex-column justify-content-between">
+                <div class="1 m-0 d-flex justify-content-between">
+                  <div class="col-3">
+                    <img
+                      class="queue-img"
+                      src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000030_1550710829_ninjasicon.png"
+                      alt=""
+                      width="70"
+                      height="70"
+                    />
+                  </div>
+                  <div class="col-8">
+                    <div class="company-details">
+                      <h3 style="color: rgb(7, 58, 153); text-align: right">
+                        Sr. Software Engineer
+                      </h3>
+                      <p class="company-name">UIMATIC (31 Web Segment LLP)</p>
+                      <p class="duration">July 2021 - Current</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="2 m-0 d-flex justify-content-between text-justify">
+                  <div class="col-12">
+                    <p class="description">
+                      As Backend developer - Wrote and reviewed other codes and
+                      make Database design for the In-house project. Reduce the
+                      manual eﬀort of the team by 90% to Increase the customer
+                      ratio by implementing task features to manage employees
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-box">
+            <div class="col-12">
+              <div class="mt-3 left d-flex flex-column justify-content-between">
+                <div class="1 m-0 d-flex justify-content-between">
+                  <div class="col-3">
+                    <img
+                      class="queue-img"
+                      src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000030_1550710829_ninjasicon.png"
+                      alt=""
+                      width="70"
+                      height="70"
+                    />
+                  </div>
+                  <div class="col-8">
+                    <div class="company-details">
+                      <h3 style="color: rgb(7, 58, 153); text-align: right">
+                        Jr. Software Engineer
+                      </h3>
+                      <p class="company-name">Alobha Technologies Pvt. Ltd.</p>
+                      <p class="duration">10 2020 - April 2021</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="2 m-0 d-flex justify-content-between text-justify">
+                  <div class="col-12">
+                    <p class="description">
+                      Worked on the Web development team, in PHP with the
+                      framework Laravel and Javascript to plan, design, and
+                      develop the full stack to add and edit in production. I
+                      have managed the intern and guided them.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-box">
+            <div class="col-12">
+              <div class="mt-3 left d-flex flex-column justify-content-between">
+                <div class="1 m-0 d-flex justify-content-between">
+                  <div class="col-3">
+                    <img
+                      class="queue-img"
+                      src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000030_1550710829_ninjasicon.png"
+                      alt=""
+                      width="70"
+                      height="70"
+                    />
+                  </div>
+                  <div class="col-8">
+                    <div class="company-details">
+                      <h3 style="color: rgb(7, 58, 153); text-align: right">
+                        Designation
+                      </h3>
+                      <p class="company-name">Company Name</p>
+                      <p class="duration">Month YYYY - Month YYYY</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="2 m-0 d-flex justify-content-between text-justify">
+                  <div class="col-12">
+                    <p class="description">
+                      Lorem Ipsum has been the industry's standard dummy text
+                      ever since the 1500s, when an unknown printer took a
+                      galley of type and scrambled it to make a type specimen
+                      book.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-divider">
+            <div class="timeline-travller">
+              <i
+                class="fas fa-plane"
+                style="color: rgb(6, 68, 150); width: 30px; height: 30px"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education section -->
+      <section id="education" class="mt-2">
+        <h1 class="section-heading mb75px">
+          <span>
+            <i class="fas fa-graduation-cap"></i>
+            <!-- <i class="fa-solid fa-graduation-cap"></i> -->
+          </span>
+          <span> Education </span>
+        </h1>
+
+        <div class="timeline">
+          <div class="timeline-box">
+            <div class="col-12">
+              <div class="mt-3 left d-flex flex-column justify-content-between">
+                <div class="1 m-0 d-flex justify-content-between">
+                  <div class="col-3">
+                    <img
+                      class="queue-img"
+                      src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000030_1550710829_ninjasicon.png"
+                      alt=""
+                      width="70"
+                      height="70"
+                    />
+                  </div>
+                  <div class="col-8">
+                    <div class="company-details">
+                      <h3 style="color: rgb(7, 58, 153); text-align: right">
+                        B.Tech (IT)
+                      </h3>
+                      <p class="company-name">
+                        Buddha Insitutue Of Technology GKP
+                      </p>
+                      <p class="duration">May 2016 - August 2020</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="2 m-0 d-flex justify-content-between text-justify">
+                  <div class="col-12">
+                    <p class="description">
+                      Lorem Ipsum has been the industry's standard dummy text
+                      ever since the 1500s, when an unknown printer took a
+                      galley of type and scrambled it to make a type specimen
+                      book.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-box">
+            <div class="col-12">
+              <div class="mt-3 left d-flex flex-column justify-content-between">
+                <div class="1 m-0 d-flex justify-content-between">
+                  <div class="col-3">
+                    <img
+                      class="queue-img"
+                      src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000030_1550710829_ninjasicon.png"
+                      alt=""
+                      width="70"
+                      height="70"
+                    />
+                  </div>
+                  <div class="col-8">
+                    <div class="company-details">
+                      <h3 style="color: rgb(7, 58, 153); text-align: right">
+                        Intermediate (12th)
+                      </h3>
+                      <p class="company-name">Amar Singh Inter Collage GKP</p>
+                      <p class="duration">May 2015 - May 2016</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="2 m-0 d-flex justify-content-between text-justify">
+                  <div class="col-12">
+                    <p class="description">
+                      Lorem Ipsum has been the industry's standard dummy text
+                      ever since the 1500s, when an unknown printer took a
+                      galley of type and scrambled it to make a type specimen
+                      book.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-box">
+            <div class="col-12">
+              <div class="mt-3 left d-flex flex-column justify-content-between">
+                <div class="1 m-0 d-flex justify-content-between">
+                  <div class="col-3">
+                    <img
+                      class="queue-img"
+                      src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000030_1550710829_ninjasicon.png"
+                      alt=""
+                      width="70"
+                      height="70"
+                    />
+                  </div>
+                  <div class="col-8">
+                    <div class="company-details">
+                      <h3 style="color: rgb(7, 58, 153); text-align: right">
+                        High School (10th)
+                      </h3>
+                      <p class="company-name">C S H H S CMP GKP</p>
+                      <p class="duration">May 2009 - Juyl 2011</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="2 m-0 d-flex justify-content-between text-justify">
+                  <div class="col-12">
+                    <p class="description">
+                      Lorem Ipsum has been the industry's standard dummy text
+                      ever since the 1500s, when an unknown printer took a
+                      galley of type and scrambled it to make a type specimen
+                      book.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-divider">
+            <div class="timeline-travller">
+              <i
+                class="fas fa-van-shuttle"
+                style="color: rgb(6, 68, 150); width: 30px; height: 30px"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- portfolio section -->
+      <section id="portfolio">
+        <h1 class="section-heading mb75px">
+          <span>
+            <i class="fas fa-list"></i>
+          </span>
+          <span> Portfolio </span>
+        </h1>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12 child-portfolio-container">
+              <div class="col-4 portfolio-item">
+                <!-- <img src="../images/portfolio/portfolio-1.png" alt="portfolio" width="400" height="300"> -->
+                <img
+                  src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png"
+                  alt="portfolio"
+                  width="400"
+                  height="300"
+                />
+              </div>
+
+              <div class="col-4 portfolio-item">
+                <!-- <img src="../images/portfolio/portfolio-1.png" alt="portfolio" width="400" height="300"> -->
+                <img
+                  src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png"
+                  alt="portfolio"
+                  width="400"
+                  height="300"
+                />
+              </div>
+
+              <div class="col-4 portfolio-item">
+                <!-- <img src="../images/portfolio/portfolio-1.png" alt="portfolio" width="400" height="300"> -->
+                <img
+                  src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png"
+                  alt="portfolio"
+                  width="400"
+                  height="300"
+                />
+              </div>
+            </div>
+
+            <div class="col-12 child-portfolio-container">
+              <div class="col-4 portfolio-item">
+                <!-- <img src="../images/portfolio/portfolio2.png" alt="portfolio" width="400" height="300"> -->
+                <img
+                  src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png"
+                  alt="portfolio"
+                  width="400"
+                  height="300"
+                />
+              </div>
+
+              <div class="col-4 portfolio-item">
+                <!-- <img src="../images/portfolio/portfolio2.png" alt="portfolio" width="400" height="300"> -->
+                <img
+                  src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png"
+                  alt="portfolio"
+                  width="400"
+                  height="300"
+                />
+              </div>
+
+              <div class="col-4 portfolio-item">
+                <!-- <img src="../images/portfolio/portfolio2.png" alt="portfolio" width="400" height="300"> -->
+                <img
+                  src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png"
+                  alt="portfolio"
+                  width="400"
+                  height="300"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact section  -->
+      <section id="contact">
+        <h1 class="section-heading contact-secion mb75px">
+          <span>
+            <i class="fa-regular fa-address-card"></i>
+          </span>
+          <span> Contact</span>
+        </h1>
+
+        <div class="container">
+          <div class="row contact-box">
+            <div class="col-6 content-sart">
+              <form action="#" method="post">
+                <div class="form-floating mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="floatingEmptyPlaintextInput"
+                    placeholder="Your name"
+                  />
+                  <label for="floatingEmptyPlaintextInput">You Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="floatingPlaintextInput"
+                    placeholder="Your email"
+                    value=""
+                  />
+                  <label for="floatingPlaintextInput">Your Email</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                  <textarea
+                    type="email"
+                    class="form-control"
+                    id="floatingPlaintextInput"
+                    placeholder="Message"
+                    value=""
+                  ></textarea>
+                  <label for="floatingPlaintextInput">Message</label>
+                </div>
+
+                <div class="form-floating mb-3 contact-submit">
+                  <button class="btn btn-outline-light rounded-0" type="submit">
+                    SEND MESSAGE
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="col-6 content-end">
+              <h3>Get in touch</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </p>
+              <h3>My Address</h3>
+              <span
+                ><i class="fas fa-location-dot"></i> Chandigarh Punjab, India
+              </span>
+              <span
+                ><i class="fa-solid fa-mobile-screen-button"></i> 9305479873
+              </span>
+              <span
+                ><i class="fa-regular fa-envelope"></i> bit.devesh2030@gmail.com
+              </span>
+            </div>
+
+            <!-- <div id="name-social-container" class="col-12 social-icons-section">
+                            <div class="col-12">
+                                <ul class="horizontal-list text-center social-icons">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                    </li>
+            
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-stack-overflow"></i>
+                                        </a>
+                                    </li>
+                
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-google-plus-g"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    
+                                        <li>
+                                        <a href="#">
+                                            <i class="fab fa-quora"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </dv>
+                        </div> -->
+
+            <div id="name-social-container" class="white-color name-social">
+              <div class="social-link">
+                <ul class="text-center social-icons">
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/mynetwork"
+                      target="_blank"
+                    >
+                      <img src="images/social/linkedin.png" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.stackoverflow.com" target="_blank">
+                      <img src="../images/social/stackoverflow.png" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.googleplus.com" target="_blank">
+                      <img src="../images/social/google-plus.png" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.facebook.com" target="_blank">
+                      <img src="../images/social/facebook.png" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.quora.com" target="_blank">
+                      <img src="../images/social/quora.png" alt="" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous" ></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
+
+    <script>
+        function toggleMenu() {
+            var navList = document.getElementById("navList");
+            navList.classList.toggle("show");
+        }
+    </script>
+  </body>
+</html>

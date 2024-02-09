@@ -1,0 +1,611 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/*____________body header___________*/
+#body-header {
+  height: 65vh;
+  opacity: 0.8;
+  /* background-image: url('../public/images/header-bg.jpg'); */
+  background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.white-color {
+  color: white;
+}
+
+/* ___________Horizontal Lists navigation/Menu Bar__________*/
+
+.horizontal-list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.horizontal-list li {
+  display: inline-block;
+  margin: 5px 20px 8px 0px;
+  font-size: 1.1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.horizontal-list li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: color 0.5s, border-bottom 4s;
+}
+
+.horizontal-list li a:hover {
+  color: rgb(194, 9, 95);
+  border-bottom: 1px solid white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* _____________ Name and Social Icons ____________*/
+
+#name-social-container {
+  margin-top: 20vh;
+  text-align: center;
+}
+
+.name-heading {
+  font-size: 2.2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+  margin-bottom: 0.1rem;
+}
+
+.social-link ul li {
+  display: inline-block;
+  justify-content: space-between;
+  margin: 0px 50px 8px 0px;
+}
+
+.social-link ul li a {
+  text-decoration: none;
+}
+
+.social-link ul li img {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  margin-top: -10px;
+  font-size: 1rem;
+}
+
+.social-link ul li img:hover {
+  box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+  border-radius: 30%;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+/* ___________About section___________  */
+
+#my-image {
+  height: 12rem;
+  width: 12rem;
+  margin: auto;
+  margin-top: -17vh;
+}
+
+#my-image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0px 0px 10px 10px rgba(230, 196, 196, 0.3);
+}
+
+#about-content {
+  width: 50%;
+  height: auto;
+  color: rgb(95, 75, 75);
+  text-align: justify;
+}
+
+/* _________________Skill's section______________ */
+/* 
+.skills-display{
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.sliss-progress {
+  width: 7rem;
+  height: 1.4rem;
+  background-color: lightgray;
+  border-radius: 0.8rem;
+}
+
+.mb75px {
+  margin-bottom: 75px;
+}
+
+.mb-blue {
+  background-color: blue;
+}
+
+.eighty-five-percent {
+  width: 85%;
+  height: inherit;
+}
+
+.skill-name {
+  color: white;
+  font-size: 1rem;
+} */
+
+/*Section Classes*/
+
+section {
+  width: 100%;
+  /*height: 75vh;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section:nth-child(2n) {
+  background-color: #9e9b9b29;
+}
+
+section:nth-child(2n + 1) {
+  background-color: white;
+}
+
+.section-heading {
+  width: auto;
+  padding: 20px 10px 10px;
+  font-weight: 400;
+}
+
+.section-heading span {
+  font-size: 40px;
+  color: #2857a4;
+  display: inline-block;
+  padding-top: 10px;
+  margin-right: 0.5rem;
+}
+
+/*About Section*/
+
+#about {
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+#my-image {
+  height: 12rem;
+  width: 12rem;
+  margin: auto;
+  margin-top: -17vh;
+}
+
+#my-image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 1px 1px 10px 2px lightgrey;
+}
+
+#about-para {
+  padding: 10px;
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  color: grey;
+  line-height: 28px;
+  font-weight: 100;
+  font-size: 1.1rem;
+}
+
+/*Skills Section*/
+
+.skills-display {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skill-progress {
+  width: 7rem;
+  height: 1.4rem;
+  background-color: lightgrey;
+  border-radius: 0.8rem;
+}
+
+.skill-progress > div {
+  border-radius: 20px 0px 0px 20px;
+}
+
+.skill-name span {
+  color: white;
+  font-size: 1rem;
+  margin-left: 10px;
+}
+
+/* Common Margin Classes */
+.mb75px {
+  margin-bottom: 75px;
+}
+
+/*common color classes */
+
+.text-highlight {
+  color: #2857a4;
+  font-weight: 600;
+}
+
+.mb-blue {
+  background-color: #2857a4;
+}
+
+/*Percentage Classes */
+
+.skills-display-two {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skill-name-mongo {
+  color: aliceblue;
+  background-color: rgb(141, 95, 141);
+}
+
+.mb-purple {
+  background-color: rgb(141, 95, 141);
+}
+
+.html-mb-orange {
+  background-color: rgb(231, 77, 6);
+}
+
+.javascript-mb-green {
+  background-color: rgb(3, 73, 3);
+}
+
+.c-plus-plus-percent {
+  width: 50%;
+  height: inherit;
+}
+
+.html-percent {
+  width: 80%;
+  height: inherit;
+}
+
+.css-percent {
+  width: 85%;
+  height: inherit;
+}
+
+.javascript-percent {
+  width: 75%;
+  text-wrap: wrap;
+  height: inherit;
+}
+
+.nodejs-percent {
+  width: 60%;
+  height: inherit;
+}
+
+.percent-mongo {
+  width: 80%;
+  height: inherit;
+}
+
+/* portfolio section */
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.child-portfolio-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* contact section */
+#contact {
+  display: flex;
+  background: linear-gradient(to right, #224f97, #403066);
+}
+.contact-secion span {
+  font-size: 40px;
+  color: white;
+  display: inline-block;
+  padding-top: 10px;
+  margin-right: 0.5rem;
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+}
+
+.contact-submit button {
+  font-weight: bold;
+  /* background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    border: 1px solid white;
+    border-radius: 0px;
+    padding: 10px 20px;
+    cursor: pointer; */
+}
+
+.content-end {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  color: white;
+}
+.content-end span,
+p {
+  color: rgb(223, 214, 214);
+}
+
+.social-icons-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+/* work experience and Education seection*/
+
+.timeline {
+  position: relative;
+  width: 75%;
+  /* border: 2px solid black; */
+}
+
+.timeline-box {
+  position: relative;
+  margin: 5px;
+  width: 40%;
+  left: 5%;
+  /* border: 2px solid black; */
+  min-height: 150px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.timeline-box:nth-child(2n) {
+  left: 53%;
+}
+
+.timeline-box:nth-child(2n + 1)::after {
+  content: "";
+  position: absolute;
+  top: 25%;
+  right: -12.7%;
+  border: 2px solid rgb(184, 179, 179);
+  border-radius: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: rgb(175, 169, 169);
+  z-index: 2;
+}
+
+.timeline-box:nth-child(2n)::after {
+  content: "";
+  position: absolute;
+  top: 30%;
+  left: -8.6%;
+  border: 2px solid rgb(180, 177, 177);
+  border-radius: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: rgb(179, 175, 175);
+  z-index: 2;
+}
+
+.timeline-divider {
+  position: absolute;
+  height: 75%;
+  width: 0;
+  border: 1px dashed rgb(106, 174, 230);
+  top: 10%;
+  left: 50%;
+}
+
+.timeline-travller {
+  position: sticky;
+  top: 30%;
+  transform: rotate(90deg);
+  z-index: 2;
+}
+
+.timeline-box {
+  display: flex;
+  flex-direction: row;
+}
+.company-image img {
+  width: 50px;
+  height: 50px;
+}
+
+.company-details {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.company-name {
+  font-weight: 500;
+  color: rgb(228, 111, 1);
+}
+
+.duration {
+  color: gray;
+}
+
+.description {
+  font-weight: 300;
+  color: gray;
+  text-align: justify;
+}
+
+@media screen and (max-width: 573px) {
+  .child-portfolio-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfolio-item img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .child-portfolio-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfolio-item {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1044px) {
+  .child-portfolio-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfolio-item {
+    width: 50%;
+    /* width: 100px;
+    height: 100px; */
+  }
+}
+
+@media screen and (max-width: 572px) {
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .social-icons li a {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 572px) {
+  .skills-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .skill-progress {
+    width: 50%;
+    margin-top: 50px;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 572px) {
+  .skills-display-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .skill-progress {
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 572px) {
+  #body-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .skill-progress {
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 572px) {
+  ul.horizontal-list {
+    display: none;
+  }
+
+  ul.horizontal-list.show {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    background-color: #333;
+    width: 100%;
+  }
+
+  ul.horizontal-list li {
+    width: 100%;
+    text-align: center;
+  }
+}
